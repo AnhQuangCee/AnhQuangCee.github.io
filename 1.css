@@ -7,9 +7,141 @@
 }
  
  /*HOME*/
- .home .row img{
- 	padding: 0px;
- 	overflow-x: hidden;
+.home .welcome{
+	position: relative;
+ }
+.home .welcome h1{
+	position: absolute;
+	top: 400px;
+	left: 100px;
+	color: white;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.home .welcome p{
+	position: absolute;
+	top: 460px;
+	left: 100px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*experience*/
+.experience .container h1{
+
+}
+
+/*EXPERIENCE*/
+.experience{
+	background-color: #f9f9f9;
+	padding-bottom: 40px;
+}
+.experience h1{
+ 	padding: 40px 0px 20px 0px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	margin: 0;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+.experience p{
+ 	font-size: 18px;
+ 	margin-bottom: 40px;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+ .experience img{
+ 	border: 4px solid #a7a1a1;
+ 	border-radius: 50%;
+ }
+ .experience h3{
+ 	font-weight: bold;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+ .experience .row1.timeline{
+ 	position: relative;
+ }
+ .experience .duongke{
+ 	width: 2px;
+ 	height: 900px;
+ 	background: #a7a1a1;
+ 	position: absolute;
+ 	top: 165px;
+ 	left: 50%;
  }
 
- 
+ /*PORTFOLIO*/
+ .portfolio{
+ 	padding-bottom: 40px;
+ }
+ .portfolio h1{
+ 	padding: 40px 0px 20px 0px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	margin: 0;
+ 	font-family: 'Montserrat', sans-serif;	
+ }
+ .portfolio p{
+ 	font-size: 18px;
+ 	margin-bottom: 40px;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ /*SERVICE*/
+ .service{
+ 	background-color: #f9f9f9;
+ 	padding-bottom: 40px;
+ }
+ .service h1{
+ 	padding: 40px 0px 20px 0px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	margin: 0;
+ 	font-family: 'Montserrat', sans-serif;	
+ }
+ .service p{
+ 	font-size: 18px;
+ 	margin-bottom: 40px;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+ .service .container .row1 .col-md-4 .border{
+ 	background-color: white;
+ 	padding: 50px 40px 30px 40px;
+ }
+ .service .container .row1 .col-md-4 .border i{
+ 	font-size: 50px;
+ }
+ .service .container .row1 .col-md-4 .border h4{
+	font-size: 20px;
+	text-transform: uppercase;
+ }
+
+ /*BLOG*/
+ .blog{
+ 	padding-bottom: 40px;
+ }
+ .blog h1{
+ 	padding: 40px 0px 20px 0px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	margin: 0;
+ 	font-family: 'Montserrat', sans-serif;	
+ }
+ .blog p{
+	font-size: 18px;
+ 	margin-bottom: 40px;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ /*CONTACT*/
+ .contact h1{
+	padding: 40px 0px 20px 0px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	margin: 0;
+ 	font-family: 'Montserrat', sans-serif;	
+ }
+ .contact p{
+ 	font-size: 18px;
+ 	margin-bottom: 40px;
+ 	font-family: 'Montserrat', sans-serif;
+ }
