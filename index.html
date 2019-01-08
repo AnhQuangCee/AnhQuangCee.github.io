@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="vendor/bootstrap.css">>
  	<link rel="stylesheet" href="1.css">
 </head>
-<body >
+<body data-spy="scroll" data-target=".menu" data-offset="50">
     <div class="menu navbar-inverse navbar-fixed-top">
     	<div class="container">
     		<ul class="nav navbar-nav navbar-left">
@@ -29,16 +29,16 @@
     </div>
     <!-- end menu -->
 
-    <div class="home">
+    <div class="home" id="home">
         <div class="welcome">
           <h1>Hi, I'm Anh Quang</h1>
           <p>Front-end Developer, Graphic Designer</p>
         </div>
-        <img src="images/2.jpg" class="img-responsive" alt="">
+        <img src="images/background2.png" class="img-responsive" alt="">
     </div>
 	<!-- end home -->
 
-	<div class="about">
+	<div class="about" id="about">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12">
@@ -52,6 +52,18 @@
 				</div>
 				<div class="col-md-8">
 					<p>Bacon ipsum dolor amet corned beef pork belly chicken buffalo sausage andouille burgdoggen hamburger short loin capicola. Salami short loin beef ribs corned beef prosciutto ham. Bacon ipsum dolor amet corned beef pork belly chicken buffalo sausage andouille</p>
+          <div id="photoshop" class="Exprocess"></div><br>
+          <div id="illustrator" class="Exprocess"></div><br>
+          <div id="muse" class="Exprocess"></div><br>
+          <div id="html" class="Exprocess"></div><br>
+          <div id="javascript" class="Exprocess"></div><br>
+          <div id="nodejs" class="Exprocess"></div><br>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="btn-success text-center">download cv</div>
+            </div>
+            <div class="col-md-8"></div>
+          </div>
 				</div>
 			</div>
 		</div>
@@ -193,7 +205,7 @@
     </div>
     <!-- end portolio -->
 
-    <div class="service">
+    <div class="service" id="service">
     	<div class="container text-center">
     		<div class="row">
     			<div class="col-md-12">
@@ -254,7 +266,8 @@
 	</div>
 	<!-- end blog -->
 
-	<div class="contact">
+	<div class="contact" id="contact">
+   <div class="background"></div>
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12">
@@ -263,7 +276,7 @@
 				</div>
 			</div>
 			<div class="row1">
-				<div class="col-md-6">
+				<div class="col-md-6 contactForm1">
 					<form>
 					  <div class="form-group">
 					    <input type="email" class="form-control"  placeholder="Name">
@@ -277,14 +290,15 @@
 					</form>
 					<div class="btn-success btn-block text-center">Send a message</div>
 				</div>
-				<div class="col-md-6">
-					<h3>contact address</h3>
+				<div class="col-md-6 address">
+					<h3 class="text-center">contact address</h3>
 					<p><i class="fas fa-map-marker-alt"></i> 416/11/3 Duong Quang Ham, P.5, Q.Go Vap, TP. Ho Chi Minh</p>
 					<p><i class="fas fa-envelope"></i> duonganhquang97@gmail.com</p>
 					<p><i class="fas fa-phone"></i> 037 562 4006</p>
 				</div>
 			</div>
 		</div>
+    <div class="background"></div>
 	</div>
 	<!-- end contact -->
 
@@ -292,19 +306,28 @@
       <div class="container">
         <div class="row text-center">
           <div class="col-md-4">
-            <p>Copyright <i class="far fa-copyright"></i> by Smart Garden Website</p>
+            <p>Copyright <i class="far fa-copyright"></i> by DAQ Website</p>
           </div>
           <div class="col-md-4"></div>
           <div class="col-md-4">
-            <b class="fab fa-facebook-f"></b>
-            <b class="fab fa-twitter"></b>
-            <b class="fas fa-envelope"></b>
+            <div class="row">
+            <div class="icon">
+              <b class="fab fa-facebook-f"></b>
+            </div>
+            <div class="icon">
+              <b class="fab fa-twitter"></b>
+            </div>
+            <div class="icon">
+              <b class="fas fa-envelope"></b>
+            </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!-- end copyright -->
     <script src="js/anime.js"></script>
-	<script src="js/1.js"></script>
+    <script src="js/processbar.js"></script>
+	  <script src="js/1.js"></script>
 </body>
 </html>

@@ -27,11 +27,39 @@
 	font-family: 'Montserrat', sans-serif;
 }
 
-/*experience*/
-.experience .container h1{
-
+/*ABOUT*/
+.about{
+	padding-bottom: 40px;
 }
-
+.about h1{
+	padding: 40px 0px 20px 0px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	margin: 0;
+ 	font-family: 'Montserrat', sans-serif;	
+ 	color: black;
+}
+.about p{
+	font-size: 18px;
+ 	margin-bottom: 40px;
+ 	font-family: 'Montserrat', sans-serif;
+}
+.about .Exprocess{
+  margin: 20px;
+  width: 700px;
+  height: 8px;
+  position: relative;
+}
+.about .row1 .col-md-8 .btn-success{
+	padding: 15px 20px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
 /*EXPERIENCE*/
 .experience{
 	background-color: #f9f9f9;
@@ -133,15 +161,88 @@
  }
 
  /*CONTACT*/
- .contact h1{
+
+.contact{
+	background-image: url(images/background2.png);
+	height: 80%;
+	width: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+}
+.contact h1{
 	padding: 40px 0px 20px 0px;
  	text-transform: uppercase;
  	font-weight: bold;
  	margin: 0;
  	font-family: 'Montserrat', sans-serif;	
- }
- .contact p{
- 	font-size: 18px;
+ 	color: white;
+}
+.contact h3{
+	font-size: 25px;
  	margin-bottom: 40px;
  	font-family: 'Montserrat', sans-serif;
+ 	color: white;
+}
+.contact p{
+ 	font-size: 18px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	color: white;
+}
+.contact .contactForm{
+	padding: 0% 0% 5% 5%;
+}
+.contact .contactForm1{
+	background-color: white;
+	padding: 3% 3%;
+	border-radius: 5px;
+}
+.contact .contactForm1 .btn-success{
+	padding: 10px 0px;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	border-radius: 5px;
+	background-color: black;
+	cursor: pointer;
+}
+.contact .address{
+	padding: 0px 80px;
+}
+.contact .address h3{
+	text-transform: capitalize;
+}
+.contact .address p{
+	color: white;
+}
+
+ /*COPYRIGHT*/
+ .copyright{
+ 	padding-top: 20px;
+ 	padding-bottom: 16px;
+ 	background-color: #EAEAEA;
+ }
+ .copyright b{
+ 	font-size: 20px;
+ 	color: black;
+ 	line-height: 40px;
+ }
+ .copyright p{
+	 color: black;
+	 font-family: 'Montserrat', sans-serif;
+	 font-size: 16px;
+	 padding-top: 10px;
+ }
+ .copyright .icon{
+ 	height: 40px;
+ 	width: 40px;
+ 	border-radius: 50%;
+ 	background-color: #EAEAEA;
+ 	border-radius: 50%;
+ 	border: 1.5px solid black;
+ 	float: left;
+ 	margin-left: 20px;
+ 	cursor: pointer;
  }
