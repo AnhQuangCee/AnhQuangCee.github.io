@@ -1,5 +1,9 @@
 *{margin:0;padding:0; }
-
+ html,body{
+ 	height: 100%;
+ 	width: 100%;
+ 	overflow-x: hidden;
+ }
 /*MENU*/
 .menu img{
 	height: 40px;
@@ -62,7 +66,6 @@
 }
 /*EXPERIENCE*/
 .experience{
-	background-color: #f9f9f9;
 	padding-bottom: 40px;
 }
 .experience h1{
@@ -99,6 +102,7 @@
 
  /*PORTFOLIO*/
  .portfolio{
+	background-color: #f9f9f9;
  	padding-bottom: 40px;
  }
  .portfolio h1{
@@ -246,3 +250,309 @@
  	margin-left: 20px;
  	cursor: pointer;
  }
+/* ----------- iPhone 4 and 4S ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+ 
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+ 
+}
+
+/*RESPONSIVE*/
+/* ----------- iPhone 5 and 5S ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+ 
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+ 
+}
+ 
+/* ----------- iPhone 6 ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	 
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+ 	 /*SERVICE*/
+	 .service{
+	 	background-color: #f9f9f9;
+	 	padding-bottom: 40px;
+	 }
+	 .service h1{
+	 	padding: 20px 0px 10px 0px;
+	 	font-size: 20px;
+	 	text-transform: uppercase;
+	 	font-weight: bold;
+	 	margin: 0;
+	 	font-family: 'Montserrat', sans-serif;	
+	 }
+	 .service p{
+	 	font-size: 14px;
+	 	margin-bottom: 20px;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
+	 .service .container .row1 .col-md-4 .border{
+	 	background-color: white;
+	 	padding: 50px 40px 30px 40px;
+	 }
+	 .service .container .row1 .col-md-4 .border i{
+	 	font-size: 50px;
+	 }
+	 .service .container .row1 .col-md-4 .border h4{
+		font-size: 20px;
+		text-transform: uppercase;
+	 }
+	  /*PORTFOLIO*/
+	 .portfolio{
+		background-color: #f9f9f9;
+	 	padding-bottom: 20px;
+	 }
+	 .portfolio h1{
+	 	padding: 20px 0px 10px 0px;
+	 	text-transform: uppercase;
+	 	font-size: 20px;
+	 	font-weight: bold;
+	 	margin: 0;
+	 	font-family: 'Montserrat', sans-serif;	
+	 }
+	 .portfolio p{
+	 	font-size: 14px;
+	 	margin-bottom: 20px;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
+	 /*EXPERIENCE*/
+	.experience{
+		padding-bottom: 20px;
+	}
+	.experience h1{
+	 	padding: 20px 0px 10px 0px;
+	 	text-transform: uppercase;
+	 	font-size: 20px;
+	 	font-weight: bold;
+	 	margin: 0;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
+	.experience p{
+	 	font-size: 14px;
+	 	margin-bottom: 20px;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
+	 .experience img{
+	 	height: 30%;
+	 	width: 30%;
+	 	border: 2px solid #a7a1a1;
+	 	border-radius: 50%;
+	 }
+	 .experience h3{
+	 	font-size: 16px;
+	 	font-weight: bold;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
+	 .experience .row1.timeline{
+	 	position: relative;
+	 }
+	 .experience .duongke{
+	 	width: 2px;
+	 	height: 900px;
+	 	background: #a7a1a1;
+	 	position: absolute;
+	 	top: 165px;
+	 	left: 50%;
+	 }
+	  /*BLOG*/
+	 .blog{
+	 	padding-bottom: 20px;
+	 }
+	 .blog h1{
+	 	padding: 20px 0px 10px 0px;
+	 	text-transform: uppercase;
+	 	font-size: 20px;
+	 	font-weight: bold;
+	 	margin: 0;
+	 	font-family: 'Montserrat', sans-serif;	
+	 }
+	 .blog p{
+		font-size: 14px;
+	 	margin-bottom: 20px;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
+
+	 /*CONTACT*/
+
+	.contact{
+		background-image: url(images/background2.png);
+		height: 80%;
+		width: 100%;
+		background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    padding-bottom: 40px;
+	}
+	.contact h1{
+		padding: 20px 0px 10px 0px;
+	 	text-transform: uppercase;
+	 	font-size: 20px;
+	 	font-weight: bold;
+	 	margin: 0;
+	 	font-family: 'Montserrat', sans-serif;	
+	 	color: white;
+	}
+	.contact h3{
+		font-size: 25px;
+	 	margin-bottom: 40px;
+	 	font-family: 'Montserrat', sans-serif;
+	 	color: white;
+	}
+	.contact p{
+	 	font-size: 14px;
+	 	font-family: 'Montserrat', sans-serif;
+	 	color: white;
+	}
+	.contact .contactForm{
+		padding: 0% 0% 5% 5%;
+	}
+	.contact .contactForm1{
+		background-color: white;
+		padding: 3% 3%;
+		border-radius: 5px;
+	}
+	.contact .contactForm1 .btn-success{
+		padding: 10px 0px;
+		font-size: 18px;
+		font-family: 'Montserrat', sans-serif;
+		color: white;
+		border-radius: 5px;
+		background-color: black;
+		cursor: pointer;
+	}
+	.contact .address{
+		padding: 0px;
+	}
+	.contact .address h3{
+		font-size: 18px;
+		text-transform: capitalize;
+	}
+	.contact .address p{
+		font-size: 14px;
+		color: white;
+	}
+
+	 /*COPYRIGHT*/
+	 .copyright{
+	 	padding-top: 20px;
+	 	padding-bottom: 16px;
+	 	background-color: #EAEAEA;
+	 }
+	 .copyright b{
+	 	font-size: 20px;
+	 	color: black;
+	 	line-height: 40px;
+	 }
+	 .copyright p{
+		 color: black;
+		 font-family: 'Montserrat', sans-serif;
+		 font-size: 16px;
+		 padding-top: 10px;
+	 }
+	 .copyright .icon{
+	 	height: 40px;
+	 	width: 40px;
+	 	border-radius: 50%;
+	 	background-color: #EAEAEA;
+	 	border-radius: 50%;
+	 	border: 1.5px solid black;
+	 	float: left;
+	 	margin-left: 20px;
+	 	cursor: pointer;
+	 }
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+ 
+}
+ 
+/* ----------- iPhone 6+ ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+ 
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+ 
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+ 
+}
+ ::selection{
+ 	color: white;
+ 	background: black;
+ };

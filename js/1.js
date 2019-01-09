@@ -13,7 +13,7 @@
       color: 'black',
       position: 'absolute',
       right: '0',
-      top: '-30px',
+      top: '0',
       padding: 0,
       margin: 0,
       transform: null
@@ -45,7 +45,7 @@ var bar = new ProgressBar.Line(illustrator, {
       color: 'black',
       position: 'absolute',
       right: '0',
-      top: '-30px',
+      top: '0',
       padding: 0,
       margin: 0,
       transform: null
@@ -77,7 +77,7 @@ var bar = new ProgressBar.Line(muse, {
       color: 'black',
       position: 'absolute',
       right: '0',
-      top: '-30px',
+      top: '0',
       padding: 0,
       margin: 0,
       transform: null
@@ -109,7 +109,7 @@ var bar = new ProgressBar.Line(html, {
       color: 'black',
       position: 'absolute',
       right: '0',
-      top: '-30px',
+      top: '0',
       padding: 0,
       margin: 0,
       transform: null
@@ -141,7 +141,7 @@ var bar = new ProgressBar.Line(javascript, {
       color: 'black',
       position: 'absolute',
       right: '0',
-      top: '-30px',
+      top: '0',
       padding: 0,
       margin: 0,
       transform: null
@@ -173,7 +173,7 @@ var bar = new ProgressBar.Line(nodejs, {
       color: 'black',
       position: 'absolute',
       right: '0',
-      top: '-30px',
+      top: '0',
       padding: 0,
       margin: 0,
       transform: null
