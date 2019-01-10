@@ -9,7 +9,7 @@
 	height: 40px;
 	width: 40px;
 }
- 
+
  /*HOME*/
 .home .welcome{
 	position: relative;
@@ -321,6 +321,33 @@
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+  	 /*MENU*/
+	 .menu img{
+		height: 30px;
+		width: 30px;
+		margin: 8px 20px;
+	 }
+	  /*HOME*/
+	.home .welcome{
+		position: relative;
+	 }
+	.home .welcome h1{
+		position: absolute;
+		top: 100px;
+		left: 40px;
+		color: white;
+		font-size: 16px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.home .welcome p{
+		position: absolute;
+		top: 140px;
+		left: 40px;
+		color: white;
+		font-size: 12px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
  	 /*SERVICE*/
 	 .service{
 	 	background-color: #f9f9f9;
@@ -357,11 +384,7 @@
 	 }
 	 .portfolio h1{
 	 	padding: 20px 0px 10px 0px;
-	 	text-transform: uppercase;
 	 	font-size: 20px;
-	 	font-weight: bold;
-	 	margin: 0;
-	 	font-family: 'Montserrat', sans-serif;	
 	 }
 	 .portfolio p{
 	 	font-size: 14px;
@@ -374,27 +397,18 @@
 	}
 	.experience h1{
 	 	padding: 20px 0px 10px 0px;
-	 	text-transform: uppercase;
 	 	font-size: 20px;
-	 	font-weight: bold;
-	 	margin: 0;
-	 	font-family: 'Montserrat', sans-serif;
 	 }
 	.experience p{
 	 	font-size: 14px;
-	 	margin-bottom: 20px;
-	 	font-family: 'Montserrat', sans-serif;
 	 }
 	 .experience img{
 	 	height: 30%;
 	 	width: 30%;
 	 	border: 2px solid #a7a1a1;
-	 	border-radius: 50%;
 	 }
 	 .experience h3{
 	 	font-size: 16px;
-	 	font-weight: bold;
-	 	font-family: 'Montserrat', sans-serif;
 	 }
 	 .experience .row1.timeline{
 	 	position: relative;
@@ -402,8 +416,6 @@
 	 .experience .duongke{
 	 	width: 2px;
 	 	height: 900px;
-	 	background: #a7a1a1;
-	 	position: absolute;
 	 	top: 165px;
 	 	left: 50%;
 	 }
@@ -413,106 +425,66 @@
 	 }
 	 .blog h1{
 	 	padding: 20px 0px 10px 0px;
-	 	text-transform: uppercase;
 	 	font-size: 20px;
-	 	font-weight: bold;
-	 	margin: 0;
-	 	font-family: 'Montserrat', sans-serif;	
 	 }
 	 .blog p{
 		font-size: 14px;
-	 	margin-bottom: 20px;
-	 	font-family: 'Montserrat', sans-serif;
 	 }
 
 	 /*CONTACT*/
 
 	.contact{
 		background-image: url(images/background2.png);
-		height: 80%;
+		height: 100%;
 		width: 100%;
-		background-attachment: fixed;
-	    background-position: center;
-	    background-repeat: no-repeat;
-	    background-size: cover;
-	    padding-bottom: 40px;
 	}
 	.contact h1{
 		padding: 20px 0px 10px 0px;
-	 	text-transform: uppercase;
-	 	font-size: 20px;
-	 	font-weight: bold;
-	 	margin: 0;
-	 	font-family: 'Montserrat', sans-serif;	
-	 	color: white;
+		font-size: 20px;
 	}
 	.contact h3{
 		font-size: 25px;
-	 	margin-bottom: 40px;
-	 	font-family: 'Montserrat', sans-serif;
-	 	color: white;
 	}
 	.contact p{
 	 	font-size: 14px;
-	 	font-family: 'Montserrat', sans-serif;
-	 	color: white;
 	}
 	.contact .contactForm{
 		padding: 0% 0% 5% 5%;
 	}
 	.contact .contactForm1{
-		background-color: white;
 		padding: 3% 3%;
 		border-radius: 5px;
 	}
 	.contact .contactForm1 .btn-success{
 		padding: 10px 0px;
 		font-size: 18px;
-		font-family: 'Montserrat', sans-serif;
-		color: white;
-		border-radius: 5px;
-		background-color: black;
-		cursor: pointer;
 	}
 	.contact .address{
 		padding: 0px;
 	}
 	.contact .address h3{
 		font-size: 18px;
-		text-transform: capitalize;
 	}
 	.contact .address p{
 		font-size: 14px;
-		color: white;
 	}
 
 	 /*COPYRIGHT*/
 	 .copyright{
+	 	position: relative;
 	 	padding-top: 20px;
 	 	padding-bottom: 16px;
 	 	background-color: #EAEAEA;
 	 }
 	 .copyright b{
 	 	font-size: 20px;
-	 	color: black;
-	 	line-height: 40px;
 	 }
 	 .copyright p{
-		 color: black;
-		 font-family: 'Montserrat', sans-serif;
 		 font-size: 16px;
 		 padding-top: 10px;
 	 }
-	 .copyright .icon{
-	 	height: 40px;
-	 	width: 40px;
-	 	border-radius: 50%;
-	 	background-color: #EAEAEA;
-	 	border-radius: 50%;
-	 	border: 1.5px solid black;
-	 	float: left;
-	 	margin-left: 20px;
-	 	cursor: pointer;
+	 .copyright .iconbox{
+	 	margin-left: 65px;
 	 }
 }
  
