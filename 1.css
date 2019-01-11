@@ -285,43 +285,7 @@
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
- 
-}
- 
-/* Portrait */
-@media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-}
- 
-/* Landscape */
-@media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
- 
-}
- 
-/* ----------- iPhone 6 ----------- */
- 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-	 
-}
- 
-/* Portrait */
-@media only screen
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-  	 /*MENU*/
+ 	/*MENU*/
 	 .menu img{
 		height: 30px;
 		width: 30px;
@@ -472,6 +436,245 @@
 	 /*COPYRIGHT*/
 	 .copyright{
 	 	position: relative;
+	 	background-color: #EAEAEA;
+	 }
+	 .copyright p{
+		 font-size: 16px;
+	 }
+	 .copyright .iconbox{
+	 	margin-left: 42px;
+	 }
+
+	/*DISPLAY NONE SOMETHING*/
+	.portfolio .row .xoa{
+	 	display: none;
+	 }
+	 .portfolio .container .row .col-xs-6 h3{
+		font-size: 14px;
+	 }
+	 .portfolio .container .row .col-xs-6 h4{
+		font-size: 12px;
+	 }
+	 .experience p{
+	 	font-size: 12px;
+	 }
+	 .experience img{
+	 	margin-top: 22px;
+	 	height: 100%;
+	 	width: 100%;
+	 	border: 2px solid #a7a1a1;
+	 }
+	.experience .row1.timeline{
+	 	position: relative;
+	 }
+	 .experience .duongke{
+	 	width: 0px;
+	 	height: 0px;
+	 }
+	 .experience  h3{
+	 	font-size: 14px;
+	 }
+	 .experience .row .xoa{
+	 	display: none;
+	 }
+	.blog p{
+		font-size: 12px;
+	}
+	.blog .container .row .xoa{
+	 	display: none;
+	}
+}
+ 
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	
+}
+ 
+/* Landscape */
+@media only screen
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+ 
+}
+ 
+/* ----------- iPhone 6 ----------- */
+ 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+	 /*MENU*/
+	 .menu img{
+		height: 30px;
+		width: 30px;
+		margin: 8px 20px;
+	 }
+	  /*HOME*/
+	.home .welcome{
+		position: relative;
+	 }
+	.home .welcome h1{
+		position: absolute;
+		top: 100px;
+		left: 40px;
+		color: white;
+		font-size: 16px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.home .welcome p{
+		position: absolute;
+		top: 140px;
+		left: 40px;
+		color: white;
+		font-size: 12px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+ 	 /*SERVICE*/
+	 .service{
+	 	background-color: #f9f9f9;
+	 	padding-bottom: 40px;
+	 }
+	 .service h1{
+	 	padding: 20px 0px 10px 0px;
+	 	font-size: 20px;
+	 	text-transform: uppercase;
+	 	font-weight: bold;
+	 	margin: 0;
+	 	font-family: 'Montserrat', sans-serif;	
+	 }
+	 .service p{
+	 	font-size: 14px;
+	 	margin-bottom: 20px;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
+	 .service .container .row1 .col-md-4 .border{
+	 	background-color: white;
+	 	padding: 50px 40px 30px 40px;
+	 }
+	 .service .container .row1 .col-md-4 .border i{
+	 	font-size: 50px;
+	 }
+	 .service .container .row1 .col-md-4 .border h4{
+		font-size: 20px;
+		text-transform: uppercase;
+	 }
+	  /*PORTFOLIO*/
+	 .portfolio{
+		background-color: #f9f9f9;
+	 	padding-bottom: 20px;
+	 }
+	 .portfolio h1{
+	 	padding: 20px 0px 10px 0px;
+	 	font-size: 20px;
+	 }
+	 .portfolio p{
+	 	font-size: 14px;
+	 	margin-bottom: 20px;
+	 	font-family: 'Montserrat', sans-serif;
+	 }
+	 .portfolio .row .xoa{
+	 	display: none;
+	 }
+	 .portfolio .container .row .col-xs-6 h3{
+		font-size: 14px;
+	 }
+	 .portfolio .container .row .col-xs-6 h4{
+		font-size: 12px;
+	 }
+	 /*EXPERIENCE*/
+	.experience{
+		padding-bottom: 20px;
+	}
+	.experience h1{
+	 	padding: 20px 0px 10px 0px;
+	 	font-size: 20px;
+	 }
+	.experience p{
+	 	font-size: 12px;
+	 }
+	 .experience img{
+	 	margin-top: 22px;
+	 	height: 100%;
+	 	width: 100%;
+	 	border: 2px solid #a7a1a1;
+	 }
+	 .experience .row1.timeline{
+	 	position: relative;
+	 }
+	 .experience .duongke{
+	 	width: 0px;
+	 	height: 0px;
+	 }
+	 .experience  h3{
+	 	font-size: 14px;
+	 }
+	 .experience .row .xoa{
+	 	display: none;
+	 }
+
+	  /*BLOG*/
+	 .blog{
+	 	padding-bottom: 20px;
+	 }
+	 .blog h1{
+	 	padding: 20px 0px 10px 0px;
+	 	font-size: 20px;
+	 }
+	 .blog p{
+		font-size: 12px;
+	 }
+	 .blog .container .row .xoa{
+	 	display: none;
+	 } 
+	 /*CONTACT*/
+
+	.contact{
+		background-image: url(images/background2.png);
+		height: 100%;
+		width: 100%;
+	}
+	.contact h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.contact h3{
+		font-size: 25px;
+	}
+	.contact p{
+	 	font-size: 14px;
+	}
+	.contact .contactForm{
+		padding: 0% 0% 5% 5%;
+	}
+	.contact .contactForm1{
+		padding: 3% 3%;
+		border-radius: 5px;
+	}
+	.contact .contactForm1 .btn-success{
+		padding: 10px 0px;
+		font-size: 18px;
+	}
+	.contact .address{
+		padding: 0px;
+	}
+	.contact .address h3{
+		font-size: 18px;
+	}
+	.contact .address p{
+		font-size: 14px;
+	}
+
+	/*COPYRIGHT*/
+	 .copyright{
+	 	position: relative;
 	 	padding-top: 20px;
 	 	padding-bottom: 16px;
 	 	background-color: #EAEAEA;
@@ -488,13 +691,22 @@
 	 }
 }
  
+/* Portrait */
+@media only screen
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+  	 
+}
+ 
 /* Landscape */
 @media only screen
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
- 
+ 	
 }
  
 /* ----------- iPhone 6+ ----------- */
@@ -504,6 +716,23 @@
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+ 		/*COPYRIGHT*/
+	 .copyright{
+	 	position: relative;
+	 	padding-top: 20px;
+	 	padding-bottom: 16px;
+	 	background-color: #EAEAEA;
+	 }
+	 .copyright b{
+	 	font-size: 20px;
+	 }
+	 .copyright p{
+		 font-size: 16px;
+		 padding-top: 10px;
+	 }
+	 .copyright .iconbox{
+	 	margin-left: 85px;
+	 }
  
 }
  
@@ -513,7 +742,7 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
- 
+  
 }
  
 /* Landscape */
@@ -522,8 +751,18 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
- 
+ 	
 }
+/* ----------- iPad ----------- */
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
  ::selection{
  	color: white;
  	background: black;
