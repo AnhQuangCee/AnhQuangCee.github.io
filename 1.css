@@ -1,19 +1,19 @@
 *{margin:0;padding:0; }
- html,body{
- 	height: 100%;
- 	width: 100%;
- 	overflow-x: hidden;
- }
+html,body{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
 /*MENU*/
 .menu img{
 	height: 40px;
 	width: 40px;
 }
 
- /*HOME*/
+/*HOME*/
 .home .welcome{
 	position: relative;
- }
+}
 .home .welcome h1{
 	position: absolute;
 	top: 400px;
@@ -37,22 +37,22 @@
 }
 .about h1{
 	padding: 40px 0px 20px 0px;
- 	text-transform: uppercase;
- 	font-weight: bold;
- 	margin: 0;
- 	font-family: 'Montserrat', sans-serif;	
- 	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;	
+	color: black;
 }
 .about p{
 	font-size: 18px;
- 	margin-bottom: 40px;
- 	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
 }
 .about .Exprocess{
-  margin: 20px;
-  width: 700px;
-  height: 8px;
-  position: relative;
+	margin: 20px;
+	width: 700px;
+	height: 8px;
+	position: relative;
 }
 .about .row1 .col-md-8 .btn-success{
 	padding: 15px 20px;
@@ -69,131 +69,131 @@
 	padding-bottom: 40px;
 }
 .experience h1{
- 	padding: 40px 0px 20px 0px;
- 	text-transform: uppercase;
- 	font-weight: bold;
- 	margin: 0;
- 	font-family: 'Montserrat', sans-serif;
- }
+	padding: 40px 0px 20px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
 .experience p{
- 	font-size: 18px;
- 	margin-bottom: 40px;
- 	font-family: 'Montserrat', sans-serif;
- }
- .experience img{
- 	border: 4px solid #a7a1a1;
- 	border-radius: 50%;
- }
- .experience h3{
- 	font-weight: bold;
- 	font-family: 'Montserrat', sans-serif;
- }
- .experience .row1.timeline{
- 	position: relative;
- }
- .experience .duongke{
- 	width: 2px;
- 	height: 900px;
- 	background: #a7a1a1;
- 	position: absolute;
- 	top: 165px;
- 	left: 50%;
- }
+	font-size: 18px;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.experience img{
+	border: 4px solid #a7a1a1;
+	border-radius: 50%;
+}
+.experience h3{
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+.experience .row1.timeline{
+	position: relative;
+}
+.experience .duongke{
+	width: 2px;
+	height: 900px;
+	background: #a7a1a1;
+	position: absolute;
+	top: 165px;
+	left: 50%;
+}
 
- /*PORTFOLIO*/
- .portfolio{
+/*PORTFOLIO*/
+.portfolio{
 	background-color: #f9f9f9;
- 	padding-bottom: 40px;
- }
- .portfolio h1{
- 	padding: 40px 0px 20px 0px;
- 	text-transform: uppercase;
- 	font-weight: bold;
- 	margin: 0;
- 	font-family: 'Montserrat', sans-serif;	
- }
- .portfolio p{
- 	font-size: 18px;
- 	margin-bottom: 40px;
- 	font-family: 'Montserrat', sans-serif;
- }
+	padding-bottom: 40px;
+}
+.portfolio h1{
+	padding: 40px 0px 20px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;	
+}
+.portfolio p{
+	font-size: 18px;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
 
- /*SERVICE*/
- .service{
- 	background-color: #f9f9f9;
- 	padding-bottom: 40px;
- }
- .service h1{
- 	padding: 40px 0px 20px 0px;
- 	text-transform: uppercase;
- 	font-weight: bold;
- 	margin: 0;
- 	font-family: 'Montserrat', sans-serif;	
- }
- .service p{
- 	font-size: 18px;
- 	margin-bottom: 40px;
- 	font-family: 'Montserrat', sans-serif;
- }
- .service .container .row1 .col-md-4 .border{
- 	background-color: white;
- 	padding: 50px 40px 30px 40px;
- }
- .service .container .row1 .col-md-4 .border i{
- 	font-size: 50px;
- }
- .service .container .row1 .col-md-4 .border h4{
+/*SERVICE*/
+.service{
+	background-color: #f9f9f9;
+	padding-bottom: 40px;
+}
+.service h1{
+	padding: 40px 0px 20px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;	
+}
+.service p{
+	font-size: 18px;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
+.service .container .row1 .col-md-4 .border{
+	background-color: white;
+	padding: 50px 40px 30px 40px;
+}
+.service .container .row1 .col-md-4 .border i{
+	font-size: 50px;
+}
+.service .container .row1 .col-md-4 .border h4{
 	font-size: 20px;
 	text-transform: uppercase;
- }
+}
 
- /*BLOG*/
- .blog{
- 	padding-bottom: 40px;
- }
- .blog h1{
- 	padding: 40px 0px 20px 0px;
- 	text-transform: uppercase;
- 	font-weight: bold;
- 	margin: 0;
- 	font-family: 'Montserrat', sans-serif;	
- }
- .blog p{
+/*BLOG*/
+.blog{
+	padding-bottom: 40px;
+}
+.blog h1{
+	padding: 40px 0px 20px 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;	
+}
+.blog p{
 	font-size: 18px;
- 	margin-bottom: 40px;
- 	font-family: 'Montserrat', sans-serif;
- }
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+}
 
- /*CONTACT*/
+/*CONTACT*/
 
 .contact{
 	background-image: url(images/background2.png);
 	height: 80%;
 	width: 100%;
 	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 40px;
 }
 .contact h1{
 	padding: 40px 0px 20px 0px;
- 	text-transform: uppercase;
- 	font-weight: bold;
- 	margin: 0;
- 	font-family: 'Montserrat', sans-serif;	
- 	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;	
+	color: white;
 }
 .contact h3{
 	font-size: 25px;
- 	margin-bottom: 40px;
- 	font-family: 'Montserrat', sans-serif;
- 	color: white;
+	margin-bottom: 40px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
 }
 .contact p{
- 	font-size: 18px;
- 	font-family: 'Montserrat', sans-serif;
- 	color: white;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
 }
 .contact .contactForm{
 	padding: 0% 0% 5% 5%;
@@ -222,79 +222,100 @@
 	color: white;
 }
 
- /*COPYRIGHT*/
- .copyright{
- 	padding-top: 20px;
- 	padding-bottom: 16px;
- 	background-color: #EAEAEA;
- }
- .copyright b{
- 	font-size: 20px;
- 	color: black;
- 	line-height: 40px;
- }
- .copyright p{
-	 color: black;
-	 font-family: 'Montserrat', sans-serif;
-	 font-size: 16px;
-	 padding-top: 10px;
- }
- .copyright .icon{
- 	height: 40px;
- 	width: 40px;
- 	border-radius: 50%;
- 	background-color: #EAEAEA;
- 	border-radius: 50%;
- 	border: 1.5px solid black;
- 	float: left;
- 	margin-left: 20px;
- 	cursor: pointer;
- }
+/*COPYRIGHT*/
+.copyright{
+	padding-top: 20px;
+	padding-bottom: 16px;
+	background-color: #EAEAEA;
+}
+.copyright b{
+	font-size: 20px;
+	color: black;
+	line-height: 40px;
+}
+.copyright p{
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+}
+.copyright .icon{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: #EAEAEA;
+	border-radius: 50%;
+	border: 1.5px solid black;
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+/*BACK TO TOP*/
+#myBtn {
+	transition: 0.4s;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #7d7d7d;
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+#myBtn:hover {
+  background-color: #393e46;
+}
 /* ----------- iPhone 4 and 4S ----------- */
- 
+
 /* Portrait and Landscape */
 @media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
- 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
 }
- 
+
 /* Portrait */
 @media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
 }
- 
+
 /* Landscape */
 @media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
- 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
 }
 
 /*RESPONSIVE*/
 /* ----------- iPhone 5 and 5S ----------- */
- 
+
 /* Portrait and Landscape */
 @media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
- 	/*MENU*/
-	 .menu img{
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+	/*MENU*/
+	.menu img{
 		height: 30px;
 		width: 30px;
 		margin: 8px 20px;
-	 }
-	  /*HOME*/
+	}
+	/*HOME*/
 	.home .welcome{
 		position: relative;
-	 }
+	}
 	.home .welcome h1{
 		position: absolute;
 		top: 100px;
@@ -312,329 +333,90 @@
 		font-family: 'Montserrat', sans-serif;
 	}
 
- 	 /*SERVICE*/
-	 .service{
-	 	background-color: #f9f9f9;
-	 	padding-bottom: 40px;
-	 }
-	 .service h1{
-	 	padding: 20px 0px 10px 0px;
-	 	font-size: 20px;
-	 	text-transform: uppercase;
-	 	font-weight: bold;
-	 	margin: 0;
-	 	font-family: 'Montserrat', sans-serif;	
-	 }
-	 .service p{
-	 	font-size: 14px;
-	 	margin-bottom: 20px;
-	 	font-family: 'Montserrat', sans-serif;
-	 }
-	 .service .container .row1 .col-md-4 .border{
-	 	background-color: white;
-	 	padding: 50px 40px 30px 40px;
-	 }
-	 .service .container .row1 .col-md-4 .border i{
-	 	font-size: 50px;
-	 }
-	 .service .container .row1 .col-md-4 .border h4{
+	/*SERVICE*/
+	.service{
+		background-color: #f9f9f9;
+		padding-bottom: 40px;
+	}
+	.service h1{
+		padding: 20px 0px 10px 0px;
 		font-size: 20px;
 		text-transform: uppercase;
-	 }
-	  /*PORTFOLIO*/
-	 .portfolio{
+		font-weight: bold;
+		margin: 0;
+		font-family: 'Montserrat', sans-serif;	
+	}
+	.service p{
+		font-size: 14px;
+		margin-bottom: 20px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.service .container .row1 .col-md-4 .border{
+		background-color: white;
+		padding: 50px 40px 30px 40px;
+	}
+	.service .container .row1 .col-md-4 .border i{
+		font-size: 50px;
+	}
+	.service .container .row1 .col-md-4 .border h4{
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	/*PORTFOLIO*/
+	.portfolio{
 		background-color: #f9f9f9;
-	 	padding-bottom: 20px;
-	 }
-	 .portfolio h1{
-	 	padding: 20px 0px 10px 0px;
-	 	font-size: 20px;
-	 }
-	 .portfolio p{
-	 	font-size: 14px;
-	 	margin-bottom: 20px;
-	 	font-family: 'Montserrat', sans-serif;
-	 }
-	 /*EXPERIENCE*/
+		padding-bottom: 20px;
+	}
+	.portfolio h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.portfolio p{
+		font-size: 14px;
+		margin-bottom: 20px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	/*EXPERIENCE*/
 	.experience{
 		padding-bottom: 20px;
 	}
 	.experience h1{
-	 	padding: 20px 0px 10px 0px;
-	 	font-size: 20px;
-	 }
-	.experience p{
-	 	font-size: 14px;
-	 }
-	 .experience img{
-	 	height: 30%;
-	 	width: 30%;
-	 	border: 2px solid #a7a1a1;
-	 }
-	 .experience h3{
-	 	font-size: 16px;
-	 }
-	 .experience .row1.timeline{
-	 	position: relative;
-	 }
-	 .experience .duongke{
-	 	width: 2px;
-	 	height: 900px;
-	 	top: 165px;
-	 	left: 50%;
-	 }
-	  /*BLOG*/
-	 .blog{
-	 	padding-bottom: 20px;
-	 }
-	 .blog h1{
-	 	padding: 20px 0px 10px 0px;
-	 	font-size: 20px;
-	 }
-	 .blog p{
-		font-size: 14px;
-	 }
-
-	 /*CONTACT*/
-
-	.contact{
-		background-image: url(images/background2.png);
-		height: 100%;
-		width: 100%;
-	}
-	.contact h1{
 		padding: 20px 0px 10px 0px;
 		font-size: 20px;
 	}
-	.contact h3{
-		font-size: 25px;
-	}
-	.contact p{
-	 	font-size: 14px;
-	}
-	.contact .contactForm{
-		padding: 0% 0% 5% 5%;
-	}
-	.contact .contactForm1{
-		padding: 3% 3%;
-		border-radius: 5px;
-	}
-	.contact .contactForm1 .btn-success{
-		padding: 10px 0px;
-		font-size: 18px;
-	}
-	.contact .address{
-		padding: 0px;
-	}
-	.contact .address h3{
-		font-size: 18px;
-	}
-	.contact .address p{
+	.experience p{
 		font-size: 14px;
 	}
-
-	 /*COPYRIGHT*/
-	 .copyright{
-	 	position: relative;
-	 	background-color: #EAEAEA;
-	 }
-	 .copyright p{
-		 font-size: 16px;
-	 }
-	 .copyright .iconbox{
-	 	margin-left: 42px;
-	 }
-
-	/*DISPLAY NONE SOMETHING*/
-	.portfolio .row .xoa{
-	 	display: none;
-	 }
-	 .portfolio .container .row .col-xs-6 h3{
-		font-size: 14px;
-	 }
-	 .portfolio .container .row .col-xs-6 h4{
-		font-size: 12px;
-	 }
-	 .experience p{
-	 	font-size: 12px;
-	 }
-	 .experience img{
-	 	margin-top: 22px;
-	 	height: 100%;
-	 	width: 100%;
-	 	border: 2px solid #a7a1a1;
-	 }
+	.experience img{
+		height: 30%;
+		width: 30%;
+		border: 2px solid #a7a1a1;
+	}
+	.experience h3{
+		font-size: 16px;
+	}
 	.experience .row1.timeline{
-	 	position: relative;
-	 }
-	 .experience .duongke{
-	 	width: 0px;
-	 	height: 0px;
-	 }
-	 .experience  h3{
-	 	font-size: 14px;
-	 }
-	 .experience .row .xoa{
-	 	display: none;
-	 }
-	.blog p{
-		font-size: 12px;
-	}
-	.blog .container .row .xoa{
-	 	display: none;
-	}
-}
- 
-/* Portrait */
-@media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-  	
-}
- 
-/* Landscape */
-@media only screen
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
- 
-}
- 
-/* ----------- iPhone 6 ----------- */
- 
-/* Portrait and Landscape */
-@media only screen
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
-	 /*MENU*/
-	 .menu img{
-		height: 30px;
-		width: 30px;
-		margin: 8px 20px;
-	 }
-	  /*HOME*/
-	.home .welcome{
 		position: relative;
-	 }
-	.home .welcome h1{
-		position: absolute;
-		top: 100px;
-		left: 40px;
-		color: white;
-		font-size: 16px;
-		font-family: 'Montserrat', sans-serif;
 	}
-	.home .welcome p{
-		position: absolute;
-		top: 140px;
-		left: 40px;
-		color: white;
-		font-size: 12px;
-		font-family: 'Montserrat', sans-serif;
+	.experience .duongke{
+		width: 2px;
+		height: 900px;
+		top: 165px;
+		left: 50%;
 	}
-
- 	 /*SERVICE*/
-	 .service{
-	 	background-color: #f9f9f9;
-	 	padding-bottom: 40px;
-	 }
-	 .service h1{
-	 	padding: 20px 0px 10px 0px;
-	 	font-size: 20px;
-	 	text-transform: uppercase;
-	 	font-weight: bold;
-	 	margin: 0;
-	 	font-family: 'Montserrat', sans-serif;	
-	 }
-	 .service p{
-	 	font-size: 14px;
-	 	margin-bottom: 20px;
-	 	font-family: 'Montserrat', sans-serif;
-	 }
-	 .service .container .row1 .col-md-4 .border{
-	 	background-color: white;
-	 	padding: 50px 40px 30px 40px;
-	 }
-	 .service .container .row1 .col-md-4 .border i{
-	 	font-size: 50px;
-	 }
-	 .service .container .row1 .col-md-4 .border h4{
-		font-size: 20px;
-		text-transform: uppercase;
-	 }
-	  /*PORTFOLIO*/
-	 .portfolio{
-		background-color: #f9f9f9;
-	 	padding-bottom: 20px;
-	 }
-	 .portfolio h1{
-	 	padding: 20px 0px 10px 0px;
-	 	font-size: 20px;
-	 }
-	 .portfolio p{
-	 	font-size: 14px;
-	 	margin-bottom: 20px;
-	 	font-family: 'Montserrat', sans-serif;
-	 }
-	 .portfolio .row .xoa{
-	 	display: none;
-	 }
-	 .portfolio .container .row .col-xs-6 h3{
-		font-size: 14px;
-	 }
-	 .portfolio .container .row .col-xs-6 h4{
-		font-size: 12px;
-	 }
-	 /*EXPERIENCE*/
-	.experience{
+	/*BLOG*/
+	.blog{
 		padding-bottom: 20px;
 	}
-	.experience h1{
-	 	padding: 20px 0px 10px 0px;
-	 	font-size: 20px;
-	 }
-	.experience p{
-	 	font-size: 12px;
-	 }
-	 .experience img{
-	 	margin-top: 22px;
-	 	height: 100%;
-	 	width: 100%;
-	 	border: 2px solid #a7a1a1;
-	 }
-	 .experience .row1.timeline{
-	 	position: relative;
-	 }
-	 .experience .duongke{
-	 	width: 0px;
-	 	height: 0px;
-	 }
-	 .experience  h3{
-	 	font-size: 14px;
-	 }
-	 .experience .row .xoa{
-	 	display: none;
-	 }
+	.blog h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.blog p{
+		font-size: 14px;
+	}
 
-	  /*BLOG*/
-	 .blog{
-	 	padding-bottom: 20px;
-	 }
-	 .blog h1{
-	 	padding: 20px 0px 10px 0px;
-	 	font-size: 20px;
-	 }
-	 .blog p{
-		font-size: 12px;
-	 }
-	 .blog .container .row .xoa{
-	 	display: none;
-	 } 
-	 /*CONTACT*/
+	/*CONTACT*/
 
 	.contact{
 		background-image: url(images/background2.png);
@@ -649,7 +431,7 @@
 		font-size: 25px;
 	}
 	.contact p{
-	 	font-size: 14px;
+		font-size: 14px;
 	}
 	.contact .contactForm{
 		padding: 0% 0% 5% 5%;
@@ -673,97 +455,434 @@
 	}
 
 	/*COPYRIGHT*/
-	 .copyright{
-	 	position: relative;
-	 	padding-top: 20px;
-	 	padding-bottom: 16px;
-	 	background-color: #EAEAEA;
-	 }
-	 .copyright b{
-	 	font-size: 20px;
-	 }
-	 .copyright p{
-		 font-size: 16px;
-		 padding-top: 10px;
-	 }
-	 .copyright .iconbox{
-	 	margin-left: 65px;
-	 }
+	.copyright{
+		position: relative;
+		background-color: #EAEAEA;
+	}
+	.copyright p{
+		font-size: 16px;
+	}
+	.copyright .iconbox{
+		margin-left: 42px;
+	}
+	.about{
+		padding-bottom: 40px;
+	}
+	.about h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.about p{
+		font-size: 14px;
+	}
+	.about img{
+	}
+	.about .Exprocess{
+		width: 90%;
+	}
+	.about .row1 .col-md-8 .btn-success{
+		font-size: 14px;
+		margin: auto;
+		width: 50%;
+		height: 50px;
+		width: 200px;
+	}
+	.about h4{
+		font-size: 16px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	/*DISPLAY NONE SOMETHING*/
+	.portfolio .row .xoa{
+		display: none;
+	}
+	.portfolio .container .row .col-xs-6 h3{
+		font-size: 14px;
+	}
+	.portfolio .container .row .col-xs-6 h4{
+		font-size: 12px;
+	}
+	.experience p{
+		font-size: 12px;
+	}
+	.experience img{
+		margin-top: 22px;
+		height: 100%;
+		width: 100%;
+		border: 2px solid #a7a1a1;
+	}
+	.experience .row1.timeline{
+		position: relative;
+	}
+	.experience .duongke{
+		width: 0px;
+		height: 0px;
+	}
+	.experience  h3{
+		font-size: 14px;
+	}
+	.experience .row .xoa{
+		display: none;
+	}
+	.blog p{
+		font-size: 12px;
+	}
+	.blog .container .row .xoa{
+		display: none;
+	}
+	#myBtn {
+	transition: 0.4s;
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #7d7d7d;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
 }
- 
+
+#myBtn:hover {
+  background-color: #393e46;
+}
+}
+
 /* Portrait */
 @media only screen
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-  	 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
 }
- 
+
 /* Landscape */
 @media only screen
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
- 	
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
 }
- 
-/* ----------- iPhone 6+ ----------- */
- 
+
+/* ----------- iPhone 6 ----------- */
+
 /* Portrait and Landscape */
 @media only screen
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
- 		/*COPYRIGHT*/
-	 .copyright{
-	 	position: relative;
-	 	padding-top: 20px;
-	 	padding-bottom: 16px;
-	 	background-color: #EAEAEA;
-	 }
-	 .copyright b{
-	 	font-size: 20px;
-	 }
-	 .copyright p{
-		 font-size: 16px;
-		 padding-top: 10px;
-	 }
-	 .copyright .iconbox{
-	 	margin-left: 85px;
-	 }
- 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+	/*MENU*/
+	.menu img{
+		height: 30px;
+		width: 30px;
+		margin: 8px 20px;
+	}
+	/*HOME*/
+	.home .welcome{
+		position: relative;
+	}
+	.home .welcome h1{
+		position: absolute;
+		top: 100px;
+		left: 40px;
+		color: white;
+		font-size: 16px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.home .welcome p{
+		position: absolute;
+		top: 140px;
+		left: 40px;
+		color: white;
+		font-size: 12px;
+		font-family: 'Montserrat', sans-serif;
+	}
+
+	/*SERVICE*/
+	.service{
+		background-color: #f9f9f9;
+		padding-bottom: 40px;
+	}
+	.service h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin: 0;
+		font-family: 'Montserrat', sans-serif;	
+	}
+	.service p{
+		font-size: 14px;
+		margin-bottom: 20px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.service .container .row1 .col-md-4 .border{
+		background-color: white;
+		padding: 50px 40px 30px 40px;
+	}
+	.service .container .row1 .col-md-4 .border i{
+		font-size: 50px;
+	}
+	.service .container .row1 .col-md-4 .border h4{
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	/*PORTFOLIO*/
+	.portfolio{
+		background-color: #f9f9f9;
+		padding-bottom: 20px;
+	}
+	.portfolio h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.portfolio p{
+		font-size: 14px;
+		margin-bottom: 20px;
+		font-family: 'Montserrat', sans-serif;
+	}
+	.portfolio .row .xoa{
+		display: none;
+	}
+	.portfolio .container .row .col-xs-6 h3{
+		font-size: 14px;
+	}
+	.portfolio .container .row .col-xs-6 h4{
+		font-size: 12px;
+	}
+	/*EXPERIENCE*/
+	.experience{
+		padding-bottom: 20px;
+	}
+	.experience h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.experience p{
+		font-size: 12px;
+	}
+	.experience img{
+		margin-top: 22px;
+		height: 100%;
+		width: 100%;
+		border: 2px solid #a7a1a1;
+	}
+	.experience .row1.timeline{
+		position: relative;
+	}
+	.experience .duongke{
+		width: 0px;
+		height: 0px;
+	}
+	.experience  h3{
+		font-size: 14px;
+	}
+	.experience .row .xoa{
+		display: none;
+	}
+
+	/*BLOG*/
+	.blog{
+		padding-bottom: 20px;
+	}
+	.blog h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.blog p{
+		font-size: 12px;
+	}
+	.blog .container .row .xoa{
+		display: none;
+	} 
+	/*CONTACT*/
+
+	.contact{
+		background-image: url(images/background2.png);
+		height: 100%;
+		width: 100%;
+	}
+	.contact h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.contact h3{
+		font-size: 25px;
+	}
+	.contact p{
+		font-size: 14px;
+	}
+	.contact .contactForm{
+		padding: 0% 0% 5% 5%;
+	}
+	.contact .contactForm1{
+		padding: 3% 3%;
+		border-radius: 5px;
+	}
+	.contact .contactForm1 .btn-success{
+		padding: 10px 0px;
+		font-size: 18px;
+	}
+	.contact .address{
+		padding: 0px;
+	}
+	.contact .address h3{
+		font-size: 18px;
+	}
+	.contact .address p{
+		font-size: 14px;
+	}
+
+	/*COPYRIGHT*/
+	.copyright{
+		position: relative;
+		padding-top: 20px;
+		padding-bottom: 16px;
+		background-color: #EAEAEA;
+	}
+	.copyright b{
+		font-size: 20px;
+	}
+	.copyright p{
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.copyright .iconbox{
+		margin-left: 65px;
+	}
+
+	/*ABOUT*/
+	.about{
+		padding-bottom: 40px;
+	}
+	.about h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.about p{
+		font-size: 14px;
+	}
+	.about img{
+	}
+	.about .Exprocess{
+		width: 90%;
+	}
+	.about .row1 .col-md-8 .btn-success{
+		font-size: 14px;
+		margin: auto;
+		width: 50%;
+		height: 50px;
+		width: 200px;
+	}
+	.about h4{
+		font-size: 16px;
+		font-family: 'Montserrat', sans-serif;
+	}
 }
- 
+
 /* Portrait */
 @media only screen
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-  
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
 }
- 
+
 /* Landscape */
 @media only screen
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
- 	
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+	/*COPYRIGHT*/
+	.copyright{
+		position: relative;
+		padding-top: 20px;
+		padding-bottom: 16px;
+		background-color: #EAEAEA;
+	}
+	.copyright b{
+		font-size: 20px;
+	}
+	.copyright p{
+		font-size: 16px;
+		padding-top: 10px;
+	}
+	.copyright .iconbox{
+		margin-left: 85px;
+	}
+	.about{
+		padding-bottom: 40px;
+	}
+	.about h1{
+		padding: 20px 0px 10px 0px;
+		font-size: 20px;
+	}
+	.about p{
+		font-size: 14px;
+	}
+	.about img{
+	}
+	.about .Exprocess{
+		width: 90%;
+	}
+	.about .row1 .col-md-8 .btn-success{
+		font-size: 14px;
+		margin: auto;
+		width: 50%;
+		height: 50px;
+		width: 200px;
+	}
+	.about h4{
+		font-size: 16px;
+		font-family: 'Montserrat', sans-serif;
+	}
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
 }
 /* ----------- iPad ----------- */
 
 /* Portrait */
 @media only screen
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+and (min-device-width: 768px) 
+and (max-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
 }
 
- ::selection{
- 	color: white;
- 	background: black;
- };
+::selection{
+	color: white;
+	background: black;
+};
+

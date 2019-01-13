@@ -188,3 +188,14 @@ var bar = new ProgressBar.Line(nodejs, {
 });
 
 bar.animate(0.6);  // Number from 0.0 to 1.0
+
+// BACK TO TOP
+window.onscroll = function() {scrollFunction()};
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+// CONTACT FORM

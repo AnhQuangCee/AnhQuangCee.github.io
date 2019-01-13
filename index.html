@@ -47,7 +47,7 @@
     </div>
 	<!-- end home -->
 
-	<!-- <div class="about" id="about">
+	<div class="about" id="about">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12">
@@ -76,7 +76,7 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
+	</div>
 	<!-- end about -->
   <div class="service" id="service">
       <div class="container text-center">
@@ -284,16 +284,16 @@
 				<div class="col-md-6 contactForm1">
 					<form>
 					  <div class="form-group">
-					    <input type="email" class="form-control"  placeholder="Name">
+					    <input type="text" class="form-control name"  placeholder="Name">
 					  </div>
 					  <div class="form-group">
-					    <input type="email" class="form-control"  placeholder="Email">
+					    <input type="email" class="form-control email"  placeholder="Email">
 					  </div>
 					  <div class="form-group">
-					    <textarea class="form-control"  rows="5" placeholder="Message"></textarea>
+					    <textarea class="form-control message"  rows="5" placeholder="Message"></textarea>
 					  </div>
 					</form>
-					<div class="btn-success btn-block text-center">Send a message</div>
+					<div class="btn-success btn-block text-center submit" type="submit">Send a message</div>
 				</div>
 				<div class="col-md-6 address">
 					<h3 class="text-center">contact address</h3>
@@ -314,7 +314,7 @@
             <p>Copyright <i class="far fa-copyright"></i> by DAQ Website</p>
           </div>
           <div class="col-md-4"></div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-xs">
             <div class="iconbox">
             <div class="icon">
               <b class="fab fa-facebook-f"></b>
@@ -330,6 +330,7 @@
         </div>
       </div>
   </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
     <!-- end copyright -->
     <script src="js/anime.js"></script>
     <script src="js/processbar.js"></script>
