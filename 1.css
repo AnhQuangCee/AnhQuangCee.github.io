@@ -62,8 +62,25 @@ html,body{
 	background-color: black;
 	cursor: pointer;
 	text-transform: uppercase;
+	border: 1px solid black;
 	margin-left: 20px;
 }
+.about .row1 .col-md-8 .btn-success:hover{
+	padding: 15px 20px;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background-color: white;
+	cursor: pointer;
+	text-transform: uppercase;
+	border: 1px solid black;
+	margin-left: 20px;
+	transition: 0.4s;
+}
+.about .row1 .row a:hover{
+	text-decoration: none;
+}
+
 /*EXPERIENCE*/
 .experience{
 	padding-bottom: 40px;
