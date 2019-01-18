@@ -1,7 +1,7 @@
 *{margin:0;padding:0; }
 html,body{
-	height: 100%;
-	width: 100%;
+	/*height: 100%;
+	width: 100%;*/
 	overflow-x: hidden;
 }
 /*MENU*/
@@ -134,7 +134,9 @@ html,body{
 	margin-bottom: 40px;
 	font-family: 'Montserrat', sans-serif;
 }
-
+.portfolio .container .row .col-md-4{
+	cursor: pointer;
+}
 /*SERVICE*/
 .service{
 	background-color: #f9f9f9;
@@ -153,8 +155,12 @@ html,body{
 	font-family: 'Montserrat', sans-serif;
 }
 .service .container .row1 .col-md-4 .border{
+	transition: 0.4s;
 	background-color: white;
 	padding: 50px 40px 30px 40px;
+}
+.service .container .row1 .col-md-4 .border:hover{
+	box-shadow: 0px 4px black;
 }
 .service .container .row1 .col-md-4 .border i{
 	font-size: 50px;
@@ -288,6 +294,50 @@ html,body{
 #myBtn:hover {
   background-color: #393e46;
 }
+
+/*Anime.js*/
+.about .svgAbout rect{
+	fill: none;
+	stroke: black;
+}
+.svgAbout{
+	width: 95%;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+}
+.about{
+	position: relative;
+}
+.about img{
+	opacity: 0;
+}
+/*Animation svgExperience*/
+.experience{
+	position: relative;
+}
+.experience .svgExperience circle{
+	fill: none;
+	stroke: black;
+} 
+.svgExperience{
+	width: 87%;
+	position: absolute;
+	top: -3px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.experience img{
+	opacity: 0;
+}
+.experience .expTime{
+	opacity: 0;
+}
+/*Animation Service*/
+.service .container .row1 .webDesign, .graphicDesign, .webDevelop{
+	opacity: 0;
+}
+
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */
@@ -547,24 +597,39 @@ and (-webkit-min-device-pixel-ratio: 2) {
 		display: none;
 	}
 	#myBtn {
-	transition: 0.4s;
-  position: fixed;
-  bottom: 10px;
-  right: 15px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #7d7d7d;
-  color: white;
-  cursor: pointer;
-  height: 40px;
-  width: 40px;
-}
+	  transition: 0.4s;
+	  position: fixed;
+	  bottom: 10px;
+	  right: 15px;
+	  z-index: 99;
+	  font-size: 18px;
+	  border: none;
+	  outline: none;
+	  background-color: #7d7d7d;
+	  color: white;
+	  cursor: pointer;
+	  height: 40px;
+	  width: 40px;
+	}
 
-#myBtn:hover {
-  background-color: #393e46;
-}
+	#myBtn:hover {
+	  background-color: #393e46;
+	}
+	.about .row1 .col-md-8 .btn-success:hover{
+		padding: 15px 20px;
+		font-size: 16px;
+		font-family: 'Montserrat', sans-serif;
+		color: black;
+		background-color: white;
+		cursor: pointer;
+		text-transform: uppercase;
+		border: 1px solid black;
+		margin-left: 20px;
+		transition: 0.4s;
+	}
+	.about .row1 .row a:hover{
+		text-decoration: none;
+	}
 }
 
 /* Portrait */
@@ -897,7 +962,6 @@ and (max-device-width: 1024px)
 and (-webkit-min-device-pixel-ratio: 2)
 and (orientation: portrait) {
 }
-
 ::selection{
 	color: white;
 	background: black;
