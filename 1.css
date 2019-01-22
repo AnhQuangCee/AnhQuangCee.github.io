@@ -330,14 +330,26 @@ html,body{
 .experience img{
 	opacity: 0;
 }
-.experience .expTime{
-	opacity: 0;
-}
+
 /*Animation Service*/
 .service .container .row1 .webDesign, .graphicDesign, .webDevelop{
 	opacity: 0;
 }
 
+/*Animation Portfolio*/
+.service .col-md-12{
+	position: relative;
+	display: inline-block;
+}
+.chunhat{
+	position: absolute;
+	width: 50%;
+	top: 0;
+	left: 80px;
+	height: 100%;
+	background: black;
+	margin: 0 200px;
+}
 /* ----------- iPhone 4 and 4S ----------- */
 
 /* Portrait and Landscape */

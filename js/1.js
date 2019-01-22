@@ -3,8 +3,8 @@ var myElementAbout = document.querySelector(".about");
 var elementWatcherAbout = scrollMonitor.create( myElementAbout );
 var myElementService = document.querySelector(".service");
 var elementWatcherService = scrollMonitor.create( myElementService);
-var myElementExperience = document.querySelector(".experience");
-var elementWatcherExperience = scrollMonitor.create( myElementExperience);
+// var myElementExperience = document.querySelector(".experience");
+// var elementWatcherExperience = scrollMonitor.create( myElementExperience);
 
 //Anime.js
 var drawAbout = document.querySelector(".about .svgAbout rect");
@@ -21,10 +21,103 @@ var animationServiceWebDevelopMove = anime.timeline();
 //Experience
 var animationExperience =  document.querySelector(".experience .svgExperience circle");
 var anhDisplayExperience = document.querySelector(".experience img");
-var expTime = document.querySelector(".experience .expTime");
+//var expTime = document.querySelector(".experience .expTime");
 var animationExperienceMove = anime.timeline();
-var expTimeMove = anime.timeline();
 
+// Package Animation Experience
+// ERROR FIX ANIMATION
+function experiencePack(experience){
+    experience.classList.add('experienceAnimation');
+    var experienceOld = experience.innerHTML;
+    var experienceNew = "<div class='chu'>" + experienceOld + "</div>";
+    experience.innerHTML = experienceNew;
+    var chu = experience.querySelector('.chu');
+    chu.style.opacity = "0";
+    // var expTimeMove = anime.timeline();
+    anime({
+        targets: '.chu',
+        translateX: -200,
+        easing: "easeOutSine",
+        complete: function(){
+          chu.style.opacity = "1";
+          anime({
+              targets: '.chu',
+              translateX: 0,
+              easing: "easeOutSine"
+          });
+        }
+    });
+}
+function experiencePack1(experience1){
+    experience1.classList.add('experienceAnimation1');
+    var experienceOld1 = experience1.innerHTML;
+    var experienceNew1 = "<div class='chu1'>" + experienceOld + "</div>";
+    experience1.innerHTML = experienceNew1;
+    var chu = experience1.querySelector('.chu1');
+    chu1.style.opacity = "0";
+    // var expTimeMove = anime.timeline();
+    anime({
+        targets: '.chu1',
+        translateX: 200,
+        easing: "easeOutSine",
+        complete: function(){
+          chu1.style.opacity = "1";
+          anime({
+              targets: '.chu1',
+              translateX: 0,
+              easing: "easeOutSine"
+          });
+        }
+    });
+}
+experiencePack(document.getElementById('e1'));
+experiencePack(document.getElementById('e3'));
+
+// Scroll Monitor Effect Experience
+function scrollExperienceAnimation(scrollExperience){
+    var scrollExperienceMonitor = scrollMonitor.create(scrollExperience);
+    scrollExperienceMonitor.enterViewport(function(){
+        experiencePack(scrollExperience);
+        scrollExperienceMonitor.destroy();
+    });
+}
+scrollExperienceAnimation(document.getElementById('e1'));
+scrollExperienceAnimation(document.getElementById('e3'));
+
+function scrollExperienceAnimation1(scrollExperience1){
+    var scrollExperienceMonitor1 = scrollMonitor.create(scrollExperience1);
+    scrollExperienceMonitor1.enterViewport(function(){
+        experiencePack(scrollExperience1);
+        scrollExperienceMonitor1.destroy();
+    });
+}
+scrollExperienceAnimation1(document.getElementById('e2'));
+scrollExperienceAnimation1(document.getElementById('e4'));
+// ERROR FIX ANIMATION
+
+// Animation Experience
+// elementWatcherExperience.enterViewport(function(){
+//     console.log("Animation Experience is running!");
+//     animationExperienceMove.add({
+//         targets: animationExperience,
+//         duration: 3000,
+//         strokeDashoffset: [anime.setDashoffset, 0],
+//         easing: "easeOutSine"
+//     });
+//     animationExperienceMove.add({
+//         targets: anhDisplayExperience,
+//         strokeDashoffset:[anime.setDashoffset, 0],
+//         duration: 1000,
+//         easing: 'easeOutSine',
+//         opacity: [0,1]
+//     });
+    
+//     animationExperienceMove.add({
+//         targets: animationExperience,
+//         duration: 100,
+//         opacity: [1,0]
+//     });
+// });
 //Animation About
 elementWatcherAbout.enterViewport(function() {
     console.log( 'I have entered the viewport' );
@@ -85,40 +178,46 @@ elementWatcherService.enterViewport(function() {
     });
 });
 
-// Animation Experience
-elementWatcherExperience.enterViewport(function(){
-    console.log("Animation Experience is running!");
-    animationExperienceMove.add({
-        targets: animationExperience,
-        duration: 3000,
-        strokeDashoffset: [anime.setDashoffset, 0],
-        easing: "easeOutSine"
+
+// Animtion Title
+function TitlePackge(layerMark){
+    layerMark.classList.add('cohieuung');
+
+    //Add animation
+    var cu = layerMark.innerHTML;
+    layerMark.insertAdjacentHTML('beforeend', '<div class="chunhat"></div>');
+    var chunhat = layerMark.querySelector('.chunhat');
+    var chu = layerMark.querySelector('.chu');
+    chunhat.style.transform = "scaleX(0)";
+    chunhat.style.transformOrigin = "0% 50%";
+    anime({
+        targets: ".chunhat",
+        scaleX: 1,
+        easing: "easeInOutQuint",
+        duration: 600,
+        complete: function(){
+            chunhat.style.transformOrigin = "100% 50%";
+            anime({
+                targets: ".chunhat",
+                delay: 100,
+                easing: "easeInOutQuint",
+                duration: 600,
+                scaleX:0
+            });
+        }
     });
-    animationExperienceMove.add({
-        targets: anhDisplayExperience,
-        strokeDashoffset:[anime.setDashoffset, 0],
-        duration: 1000,
-        easing: 'easeOutSine',
-        opacity: [0,1]
+}
+
+function scrollTitleAnimation(scrollTitle){
+    var scrollTitleMonitor = scrollMonitor.create(scrollTitle);
+    scrollTitleMonitor.enterViewport(function(){
+        TitlePackge(scrollTitle);
+        scrollTitleMonitor.destroy();
     });
-    
-    animationExperienceMove.add({
-        targets: animationExperience,
-        duration: 100,
-        opacity: [1,0]
-    });
-    expTimeMove.add({
-        targets: expTime,
-        opacity: 0,
-        translateX: -200
-    });
-    expTimeMove.add({
-        targets: expTime,
-        opacity: 1,
-        translateX: 0,
-        easing: "easeOutSine"
-    });
-});
+}
+scrollTitleAnimation(document.getElementById('serviceAnimation'));
+scrollTitleAnimation(document.getElementById('experienceAnimation'));
+
 
 
 var bar = new ProgressBar.Line(photoshop, {
